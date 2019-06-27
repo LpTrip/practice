@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <head>
   <title>Exercise 1</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
 
 <body>
-  <h1>PLEASE LOGIN</h1>
-  <form action="/action_page.php" method="get">
-    <input type="text" name="user_name" placeholder="username"><br>
-    <input type="text" name="user_pass" placeholder="password"><br>
-    <input type="checkbox" name="savecrendtials"> Remember me<br>
-    <input type="submit" value="Login">
-  </form>
+  <div class="container col-3 align-middle "
+    <div class="card">
+      <h4 class="card-title">Please login</h4>
+      <form class="card-body">
+        <input class="form-control form-control-md" type="text" name="user_name" placeholder="username">
+        <input class="form-control form-control-md" type="text" name="user_pass" placeholder="password"><br>
+        <input class="form-check-input" type="checkbox" name="remember_pass">Remember me<br><br>
+        <input class="btn btn-primary btn-block" type="submit" value="Login">
+      </form>
+    </div>
+  </div>
 </body>
